@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container 1200 per creare blocchi di 100x100 */
+main .container {
+    width: 1200px;
+}
+
+[class*="col-"] {
+    height: 100px;
+    background-color: black;
+}
+
+/* giant */
+/* ----- */
+.father {
+    margin: 100px 0;
+}
+
+/* child */
+/* ----- */
+.child {
+    margin: 100px 0;
+}
+
+.child [class*="col-"] {
+    height: 50px;
+}
