@@ -28,4 +28,17 @@ main .container {
 
 .child [class*="col-"] {
     height: 50px;
+    background-color: unset;
+}
+
+.child .blue {
+    background-color: #014A6F;
+}
+
+.child .white {
+    background-color: #E2E2E2;
+}
+
+.child .red {
+    background-color: #AD081B;
 }
