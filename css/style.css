@@ -9,8 +9,19 @@ main .container {
     width: 1200px;
 }
 
-[class*="col-"] {
-    height: 100px;
+.blue {
+    background-color: #014A6F;
+}
+
+.white {
+    background-color: #E2E2E2;
+}
+
+.red {
+    background-color: #AD081B;
+}
+
+.black {
     background-color: black;
 }
 
@@ -18,6 +29,11 @@ main .container {
 /* ----- */
 .father {
     margin: 100px 0;
+}
+
+.father [class*="col-"] {
+    height: 100px;
+    background-color: black;
 }
 
 /* child */
@@ -28,17 +44,4 @@ main .container {
 
 .child [class*="col-"] {
     height: 50px;
-    background-color: unset;
-}
-
-.child .blue {
-    background-color: #014A6F;
-}
-
-.child .white {
-    background-color: #E2E2E2;
-}
-
-.child .red {
-    background-color: #AD081B;
 }
